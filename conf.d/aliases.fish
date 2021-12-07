@@ -14,9 +14,9 @@ alias dclf='dc logs --tail=500 -f'
 
 # exa
 # https://github.com/ogham/exa
-# alias ls='exa -1 --icons -a --group-directories-first'
-# alias ll='ls -l --links --group'
-# alias la='ls'
+alias ls='exa -1 --icons -a --group-directories-first'
+alias ll='ls -l --links --group'
+alias la='ls'
 
 # Git aliases
 # https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh
