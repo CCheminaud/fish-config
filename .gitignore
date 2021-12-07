@@ -3,6 +3,7 @@
 !conf.d/
 conf.d/*
 !conf.d/aliases.fish
+!conf.d/syntax_colors.fish
 
 !functions/
 functions/*
