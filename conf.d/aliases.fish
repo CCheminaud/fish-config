@@ -44,9 +44,11 @@ alias gt='git tag'
 alias htop='htop --delay=20'
 
 # Lazydocker
+# https://github.com/jesseduffield/lazydocker
 alias lzd='lazydocker'
 
 # Lazygit
+# https://github.com/jesseduffield/lazygit
 alias lzg='lazygit'
 
 # Make
