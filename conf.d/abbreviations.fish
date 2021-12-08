@@ -34,6 +34,7 @@ if type -q git
     abbr -ag gb 'git branch'
     abbr -ag gbl 'git blame'
     abbr -ag gco 'git checkout'
+    abbr -ag gcm 'git commit -m'
     abbr -ag gcp 'git cherry-pick'
     abbr -ag gl 'git pull'
     abbr -ag glo 'git log --date-order --graph --pretty=lo'
