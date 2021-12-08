@@ -42,12 +42,15 @@ if type -q git
     alias gm='git merge --ff'
     alias gmc='git merge --continue'
     alias gp='git push'
+    alias gpt='git push --tags'
     alias gpu='git push -u'
     alias grb='git rebase'
     alias grbc='git rebase --continue'
     alias grbi='git rebase -i'
     alias gst='git status'
     alias gt='git tag'
+    alias gta='git_create_annotated_tag'
+    alias gtd='git tag -d'
 end
 
 # htop

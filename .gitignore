@@ -8,6 +8,7 @@ conf.d/*
 !functions/
 functions/*
 !functions/backup.fish
+!functions/git_create_annotated_tag.fish
 !functions/load_nvm.fish
 !functions/nvm_find_nvmrc.fish
 !functions/nvm.fish
