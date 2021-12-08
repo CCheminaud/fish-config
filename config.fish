@@ -1,3 +1,8 @@
+# Fish title
+function fish_title
+    echo (basename $PWD)
+end
+
 # Editor
 if type -q nvim
     set -gx EDITOR nvim
