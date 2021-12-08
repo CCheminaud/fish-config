@@ -1,3 +1,7 @@
+if type -q docker
+  exit 0
+end
+
 function shell_ubuntu -d "Start a shell using the last Ubuntu Docker image"
   set -l shell /bin/bash
   set -l image ubuntu:latest
