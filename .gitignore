@@ -2,6 +2,7 @@
 
 !conf.d/
 conf.d/*
+!conf.d/abbreviations.fish
 !conf.d/aliases.fish
 !conf.d/syntax_colors.fish
 
