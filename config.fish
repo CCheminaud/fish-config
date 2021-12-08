@@ -1,11 +1,7 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
-
-# Editors
+# Editor
 if type -q nvim
     set -gx EDITOR nvim
-else
+else if type -q vim
     set -gx EDITOR vim
 end
 
@@ -14,6 +10,6 @@ end
 load_nvm
 
 # Load Starship prompt
-# https://starship.rs/
+# https://starship.rs
 set -x STARSHIP_CONFIG ~/.config/starship/config.toml
 starship init fish | source
