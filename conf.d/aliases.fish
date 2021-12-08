@@ -1,3 +1,5 @@
+alias bck='backup'
+
 # Docker
 if type -q docker
     alias dkps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}"'

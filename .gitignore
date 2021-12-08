@@ -7,7 +7,7 @@ conf.d/*
 
 !functions/
 functions/*
-!functions/bck.fish
+!functions/backup.fish
 !functions/load_nvm.fish
 !functions/nvm_find_nvmrc.fish
 !functions/nvm.fish
