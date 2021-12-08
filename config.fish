@@ -1,3 +1,8 @@
+# Load private config
+if [ -f ~/.config/fish/config.private.fish ]
+    source ~/.config/fish/config.private.fish
+end
+
 # Fish title
 function fish_title
     echo (basename $PWD)
