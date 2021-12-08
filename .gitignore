@@ -11,6 +11,8 @@ functions/*
 !functions/load_nvm.fish
 !functions/nvm_find_nvmrc.fish
 !functions/nvm.fish
+!functions/shell_fedora.fish
+!functions/shell_ubuntu.fish
 
 !config.fish
 !fish_plugins
