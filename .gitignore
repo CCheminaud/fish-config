@@ -15,6 +15,7 @@ functions/*
 !functions/nvm.fish
 !functions/shell_fedora.fish
 !functions/shell_ubuntu.fish
+!functions/update_system.fish
 
 !config.fish
 !fish_plugins
