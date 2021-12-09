@@ -4,6 +4,8 @@ end
 
 function update_system -d "Update apps and packages on current system"
 
+    # Homebrew
+    # https://formulae.brew.sh
     if type -q brew
         echo "🍺 Update Homebrew packages..."
         brew update
@@ -14,6 +16,8 @@ function update_system -d "Update apps and packages on current system"
         echo "🍺 Homebrew is not installed. This part has been skipped."
     end
 
+    # mas-cli
+    # https://github.com/mas-cli/mas
     if type -q mas
         echo
         echo "🛒 Update App Store applications..."
