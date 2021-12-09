@@ -37,6 +37,7 @@ if type -q git
     abbr -ag gcm 'git commit -m'
     abbr -ag gcp 'git cherry-pick'
     abbr -ag gl 'git pull'
+    abbr -ag glr 'git pull --rebase'
     abbr -ag glo 'git log --date-order --graph --pretty=lo'
     abbr -ag glol 'git log --date-order --graph --pretty=lol'
     abbr -ag gm 'git merge --ff'
