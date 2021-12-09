@@ -81,6 +81,11 @@ if type -q 'make'
     abbr -ag m 'make'
 end
 
+# NPM
+if type -q 'npm'
+    abbr -ag npr 'npm run'
+end
+
 # procs
 if type -q procs
     abbr -ag ps 'procs -w --sortd cpu'
