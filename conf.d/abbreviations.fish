@@ -36,6 +36,8 @@ if type -q git
     abbr -ag gco 'git checkout'
     abbr -ag gcm 'git commit -m'
     abbr -ag gcp 'git cherry-pick'
+    abbr -ag gf 'git fetch'
+    abbr -ag gfa 'git fetch --all'
     abbr -ag gl 'git pull'
     abbr -ag glr 'git pull --rebase'
     abbr -ag glo 'git log --date-order --graph --pretty=lo'
