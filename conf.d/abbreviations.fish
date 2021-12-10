@@ -19,9 +19,8 @@ if type -q docker-compose
     set -l dc_command 'docker-compose'
 
     abbr -ag dc $dc_command
-    abbr -ag dcd "$dc_command up"
-    abbr -ag dcr "$dc_command down"
     abbr -ag dcu "$dc_command up"
+    abbr -ag dcd "$dc_command down"
     abbr -ag dclf "$dc_command logs --tail=500 -f"
 end
 
