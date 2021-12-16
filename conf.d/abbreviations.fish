@@ -49,6 +49,8 @@ if type -q git
     abbr -ag grb 'git rebase'
     abbr -ag grbc 'git rebase --continue'
     abbr -ag grbi 'git rebase -i'
+    abbr -ag gs 'git stash'
+    abbr -ag gsp 'git stash pop'
     abbr -ag gst 'git status'
     abbr -ag gt 'git tag'
     abbr -ag gta 'git_create_annotated_tag'
