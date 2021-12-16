@@ -85,6 +85,8 @@ end
 
 # NPM
 if type -q 'npm'
+    abbr -ag npci 'npm ci'
+    abbr -ag npi 'npm install'
     abbr -ag npr 'npm run'
 end
 
