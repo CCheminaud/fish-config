@@ -90,6 +90,7 @@ if type -q 'npm'
     abbr -ag npci 'npm ci'
     abbr -ag npi 'npm install'
     abbr -ag npr 'npm run'
+    abbr -ag npv 'npm version'
 end
 
 # procs
