@@ -98,13 +98,6 @@ if type -q procs
     abbr -ag ps 'procs -w --sortd cpu'
 end
 
-# VIM
-if type -q nvim
-    abbr -ag v 'nvim'
-else if type -q vim
-    abbr -ag v 'vim'
-end
-
 # Visual Studio Code
 if type -q code
     abbr -ag c 'code -n'
