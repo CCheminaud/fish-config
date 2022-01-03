@@ -1,4 +1,4 @@
-if type -q docker
+if not type -q docker
   exit 0
 end
 
