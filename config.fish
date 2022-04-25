@@ -26,3 +26,6 @@ load_nvm
 # https://starship.rs
 set -x STARSHIP_CONFIG ~/.config/starship/config.toml
 starship init fish | source
+
+# Add to the path
+fish_add_path ~/.local/bin
