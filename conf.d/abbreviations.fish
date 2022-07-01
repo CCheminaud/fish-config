@@ -32,6 +32,8 @@ if type -q git
     abbr -ag gaa 'git add --all'
     abbr -ag gb 'git branch'
     abbr -ag gbl 'git blame'
+    abbr -ag gcf 'git commit --fixup'
+    abbr -ag gcfh 'git commit --fixup HEAD'
     abbr -ag gco 'git checkout'
     abbr -ag gcm 'git commit -m'
     abbr -ag gcp 'git cherry-pick'
